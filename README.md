@@ -21,9 +21,9 @@ Create a Lago environment which will consist of three virtual machines that will
 
 #### The VMs:
 
-*  "vm0-server" - Junkins server
-*  "vm1-slave" - Junkins slave
-*  "vm2-slave" - Junkins slave
+*  "vm0-server" - Jenkins server
+*  "vm1-slave" - Jenkins slave
+*  "vm2-slave" - Jenkins slave
 
 #### The network:
 
@@ -108,7 +108,7 @@ lago shell server
 If the deployment scripts run successfuly we don't have 
 to connect to the machines.
 
-### Adding the Junkins slaves
+### Adding the Jenkins slaves
 
 Open your browser and enter to the Jenkins web UI.
 The address should be like: "put-your-server-ip-here:8080"
